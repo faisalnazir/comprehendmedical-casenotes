@@ -5,12 +5,11 @@ them through both services. It will then export to CSV all Entities, relationshi
 services for further analysis. 
 
 # Installation
-
-'''
+```bash
 pip3 -r install requirenents.txt
-
+```
 # Usage
-'''
+```bash
 python3 ./comp-med.py --directory <directory> --bucket <bucket>
-'''
+```
   
