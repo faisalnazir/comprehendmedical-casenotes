@@ -4,5 +4,13 @@ Comprehend Medical and Comprehend. The code will process all documents within a 
 them through both services. It will then export to CSV all Entities, relationships found in both
 services for further analysis. 
 
-#Usage
+# Installation
 
+'''
+pip3 -r install requirenents.txt
+
+# Usage
+'''
+python3 ./comp-med.py --directory <directory> --bucket <bucket>
+'''
+  
